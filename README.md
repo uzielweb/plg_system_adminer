@@ -1,0 +1,2 @@
+# plg_system_adminer
+plg_system_adminer
