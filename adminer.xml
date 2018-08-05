@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - Simple Adminer</name>
+    <author>mediahof</author>
+    <creationDate>Jun 2017</creationDate>
+    <copyright>(c) 2013 - 2017 mediahof. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>mail@mediahof.de</authorEmail>
+    <authorUrl>www.mediahof.de</authorUrl>
+    <version>rev 21</version>
+    <description>developed by mediahof - Multimedia, Communication and IT</description>
+    <files>
+        <filename plugin="adminer">adminer.php</filename>
+    </files>
+    <media folder="media" destination="adminer">
+        <filename>adminer.css</filename>
+        <filename>adminer.php</filename>
+        <filename>adminer.png</filename>
+        <filename>loader.php</filename>
+        <folder>plugins</folder>
+    </media>
+    <updateservers>
+        <server type="collection" priority="1" name="mediahof">http://extensions.mediahof.de/extensions.xml</server>
+    </updateservers>
+</extension>
