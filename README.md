@@ -1,2 +1,2 @@
-# plg_system_adminer
-plg_system_adminer
+# Joomla 3 Simple Adminer - A database manager for Joomla Admin panel
+
